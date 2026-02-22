@@ -1,0 +1,31 @@
+# ── Environnement Python ──────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── Données lourdes (ne pas pousser sur GitHub) ───────────────────────────────
+data/ca_his_raw_2021.h5     # 7.23 GB
+data/ca_rn_adj.npy          # 564 MB
+
+# ── Fichiers CSV et résultats (optionnels — décommenter pour exclure) ──────────
+# data/edges.csv
+# data/pairs.csv
+# data/task_a_results_raw.csv
+# data/task_a_results_agg.csv
+
+# ── Système ───────────────────────────────────────────────────────────────────
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# ── OSRM (données cartographiques lourdes) ────────────────────────────────────
+osrm/*.osm.pbf
+osrm/*.osrm
+osrm/*.osrm.*
